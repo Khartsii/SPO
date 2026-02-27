@@ -138,10 +138,44 @@ main {
 
 footer {
     background-color: #123413;
-    height: 250px;
+    height: 400px;
 
-    .footer_content {
+    .footer_m {
+        height: inherit;
+    }
+
+    .top-footer {
+        height: 50%;
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
+    }
+
+    .work-w-u {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .but_with {
+        width: 200px;
+        align-self: center;
+    }
+
+    .bottom-footer {
+        height: 29%;
+    }
+
+    .bottom-footer-ol {
+        display: flex;
+        justify-content: space-around;
+        color: whitesmoke;
+        font-size: 22px;
+    }
+
+    .bottom-footer-p {
+        text-align: center;
+        color: whitesmoke;
+        font-size: 18px;
     }
 }

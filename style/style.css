@@ -116,9 +116,37 @@ main .map .map_h {
 
 footer {
   background-color: #123413;
-  height: 250px;
+  height: 400px;
 }
-footer .footer_content {
+footer .footer_m {
+  height: inherit;
+}
+footer .top-footer {
+  height: 50%;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
+}
+footer .work-w-u {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 22px;
+}
+footer .but_with {
+  width: 200px;
+  align-self: center;
+}
+footer .bottom-footer {
+  height: 29%;
+}
+footer .bottom-footer-ol {
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-size: 22px;
+}
+footer .bottom-footer-p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
