@@ -29,6 +29,9 @@ header .nav__right {
   justify-content: space-between;
 }
 
+main {
+  background-color: antiquewhite;
+}
 main .intro {
   background: #ffffff;
   height: 765px;
@@ -56,15 +59,66 @@ main .intro__text p {
   font-size: 32px;
   margin: 0;
 }
+main .categories {
+  margin-top: 50px;
+}
+main .categories .categ_h {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #123413;
+}
 main .categories__menu {
   display: flex;
   justify-content: space-between;
   margin-top: 65px;
+}
+main .categories__menu .categ {
   position: relative;
 }
-main .categories__menu__menu p {
-  position: relative;
-}
-main .categories__menu__skinny p {
+main .categories__menu .categ p {
   position: absolute;
+  top: 80px;
+  color: white;
+  font-size: 28px;
+}
+main .categories .categ_veg {
+  position: relative;
+}
+main .categories .categ_veg p {
+  position: absolute;
+  top: 30px;
+}
+main .why-we {
+  margin-top: 50px;
+}
+main .why-we .why_h {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #123413;
+}
+main .why-we .why_p {
+  color: #123413;
+  font-size: 30px;
+  text-align: center;
+}
+main .map {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+main .map .map_h {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #123413;
+}
+
+footer {
+  background-color: #123413;
+  height: 250px;
+}
+footer .footer_content {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
